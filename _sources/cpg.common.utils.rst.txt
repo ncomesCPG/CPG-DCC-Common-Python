@@ -1,0 +1,125 @@
+cpg.common.utils package
+========================
+
+Submodules
+----------
+
+cpg.common.utils.dcc\_util module
+---------------------------------
+
+.. automodule:: cpg.common.utils.dcc_util
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.dict\_utils module
+-----------------------------------
+
+.. automodule:: cpg.common.utils.dict_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.fileio module
+------------------------------
+
+.. automodule:: cpg.common.utils.fileio
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.folders module
+-------------------------------
+
+.. automodule:: cpg.common.utils.folders
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.lists module
+-----------------------------
+
+.. automodule:: cpg.common.utils.lists
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.methods module
+-------------------------------
+
+.. automodule:: cpg.common.utils.methods
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.plastic module
+-------------------------------
+
+.. automodule:: cpg.common.utils.plastic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.process module
+-------------------------------
+
+.. automodule:: cpg.common.utils.process
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.project module
+-------------------------------
+
+.. automodule:: cpg.common.utils.project
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.pymaths module
+-------------------------------
+
+.. automodule:: cpg.common.utils.pymaths
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.pyutils module
+-------------------------------
+
+.. automodule:: cpg.common.utils.pyutils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.sounds module
+------------------------------
+
+.. automodule:: cpg.common.utils.sounds
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.strings module
+-------------------------------
+
+.. automodule:: cpg.common.utils.strings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.utils.timedate module
+--------------------------------
+
+.. automodule:: cpg.common.utils.timedate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:

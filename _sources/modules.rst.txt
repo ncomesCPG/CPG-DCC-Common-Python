@@ -1,0 +1,7 @@
+cpg-common
+==========
+
+.. toctree::
+   :maxdepth: 6
+
+   cpg

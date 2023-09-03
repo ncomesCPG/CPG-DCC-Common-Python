@@ -1,0 +1,10 @@
+cpg.common.startup.dccs.maya package
+====================================
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.startup.dccs.maya
+   :members:
+   :undoc-members:
+   :show-inheritance:

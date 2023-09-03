@@ -1,0 +1,21 @@
+cpg.common.googlesheets package
+===============================
+
+Submodules
+----------
+
+cpg.common.googlesheets.google\_sheets module
+---------------------------------------------
+
+.. automodule:: cpg.common.googlesheets.google_sheets
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.googlesheets
+   :members:
+   :undoc-members:
+   :show-inheritance:

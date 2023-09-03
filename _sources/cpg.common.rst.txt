@@ -1,0 +1,39 @@
+cpg.common package
+==================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   cpg.common.assetlist
+   cpg.common.googlesheets
+   cpg.common.paths
+   cpg.common.plasticscm
+   cpg.common.pyqt
+   cpg.common.resources
+   cpg.common.startup
+   cpg.common.textio
+   cpg.common.tools
+   cpg.common.users
+   cpg.common.utils
+
+Submodules
+----------
+
+cpg.common.log module
+---------------------
+
+.. automodule:: cpg.common.log
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common
+   :members:
+   :undoc-members:
+   :show-inheritance:

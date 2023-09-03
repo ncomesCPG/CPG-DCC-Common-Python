@@ -1,0 +1,20 @@
+cpg.common.users package
+========================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   cpg.common.users.comes
+   cpg.common.users.fshorsch
+   cpg.common.users.irichter
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.users
+   :members:
+   :undoc-members:
+   :show-inheritance:

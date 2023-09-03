@@ -1,0 +1,21 @@
+cpg.common.startup.dccs package
+===============================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   cpg.common.startup.dccs.dccdata
+   cpg.common.startup.dccs.maya
+   cpg.common.startup.dccs.mobu
+   cpg.common.startup.dccs.unreal
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.startup.dccs
+   :members:
+   :undoc-members:
+   :show-inheritance:

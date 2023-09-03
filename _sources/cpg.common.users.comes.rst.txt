@@ -1,0 +1,10 @@
+cpg.common.users.comes package
+==============================
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.users.comes
+   :members:
+   :undoc-members:
+   :show-inheritance:

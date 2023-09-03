@@ -1,0 +1,10 @@
+cpg.common.users.fshorsch package
+=================================
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.users.fshorsch
+   :members:
+   :undoc-members:
+   :show-inheritance:

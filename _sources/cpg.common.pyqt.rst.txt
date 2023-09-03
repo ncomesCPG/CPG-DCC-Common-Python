@@ -1,0 +1,45 @@
+cpg.common.pyqt package
+=======================
+
+Submodules
+----------
+
+cpg.common.pyqt.common\_windows module
+--------------------------------------
+
+.. automodule:: cpg.common.pyqt.common_windows
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.pyqt.messages module
+-------------------------------
+
+.. automodule:: cpg.common.pyqt.messages
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.pyqt.movies module
+-----------------------------
+
+.. automodule:: cpg.common.pyqt.movies
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.pyqt.syntax\_highlighter module
+------------------------------------------
+
+.. automodule:: cpg.common.pyqt.syntax_highlighter
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.pyqt
+   :members:
+   :undoc-members:
+   :show-inheritance:

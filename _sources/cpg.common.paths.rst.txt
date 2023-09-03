@@ -1,0 +1,37 @@
+cpg.common.paths package
+========================
+
+Submodules
+----------
+
+cpg.common.paths.path\_utils module
+-----------------------------------
+
+.. automodule:: cpg.common.paths.path_utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.paths.paths module
+-----------------------------
+
+.. automodule:: cpg.common.paths.paths
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.paths.project\_paths module
+--------------------------------------
+
+.. automodule:: cpg.common.paths.project_paths
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.paths
+   :members:
+   :undoc-members:
+   :show-inheritance:

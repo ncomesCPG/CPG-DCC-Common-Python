@@ -1,0 +1,30 @@
+cpg.common.plasticscm package
+=============================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   cpg.common.plasticscm.core
+   cpg.common.plasticscm.widgets
+
+Submodules
+----------
+
+cpg.common.plasticscm.api module
+--------------------------------
+
+.. automodule:: cpg.common.plasticscm.api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.plasticscm
+   :members:
+   :undoc-members:
+   :show-inheritance:

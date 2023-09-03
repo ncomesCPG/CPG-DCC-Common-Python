@@ -1,0 +1,29 @@
+cpg.common.resources package
+============================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   cpg.common.resources.fonts
+
+Submodules
+----------
+
+cpg.common.resources.resources module
+-------------------------------------
+
+.. automodule:: cpg.common.resources.resources
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.resources
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,21 @@
+cpg.common.tools.assetregister package
+======================================
+
+Submodules
+----------
+
+cpg.common.tools.assetregister.asset\_register\_tool module
+-----------------------------------------------------------
+
+.. automodule:: cpg.common.tools.assetregister.asset_register_tool
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.tools.assetregister
+   :members:
+   :undoc-members:
+   :show-inheritance:

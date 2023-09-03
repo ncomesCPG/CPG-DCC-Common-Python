@@ -1,0 +1,10 @@
+cpg.common.users.irichter package
+=================================
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.users.irichter
+   :members:
+   :undoc-members:
+   :show-inheritance:

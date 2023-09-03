@@ -1,0 +1,21 @@
+cpg.common.plasticscm.widgets package
+=====================================
+
+Submodules
+----------
+
+cpg.common.plasticscm.widgets.dialogs module
+--------------------------------------------
+
+.. automodule:: cpg.common.plasticscm.widgets.dialogs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.plasticscm.widgets
+   :members:
+   :undoc-members:
+   :show-inheritance:

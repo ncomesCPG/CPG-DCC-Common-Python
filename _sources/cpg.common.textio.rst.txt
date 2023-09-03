@@ -1,0 +1,37 @@
+cpg.common.textio package
+=========================
+
+Submodules
+----------
+
+cpg.common.textio.jsonio module
+-------------------------------
+
+.. automodule:: cpg.common.textio.jsonio
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.textio.packages module
+---------------------------------
+
+.. automodule:: cpg.common.textio.packages
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.textio.yamlio module
+-------------------------------
+
+.. automodule:: cpg.common.textio.yamlio
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.textio
+   :members:
+   :undoc-members:
+   :show-inheritance:

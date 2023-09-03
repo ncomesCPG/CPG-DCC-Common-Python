@@ -1,0 +1,29 @@
+cpg.common.tools.dcctracking package
+====================================
+
+Submodules
+----------
+
+cpg.common.tools.dcctracking.dcc\_tracking module
+-------------------------------------------------
+
+.. automodule:: cpg.common.tools.dcctracking.dcc_tracking
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.tools.dcctracking.dcc\_user\_data module
+---------------------------------------------------
+
+.. automodule:: cpg.common.tools.dcctracking.dcc_user_data
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.tools.dcctracking
+   :members:
+   :undoc-members:
+   :show-inheritance:

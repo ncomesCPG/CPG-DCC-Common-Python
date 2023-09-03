@@ -1,0 +1,21 @@
+cpg.common.tools.example\_tool package
+======================================
+
+Submodules
+----------
+
+cpg.common.tools.example\_tool.testui module
+--------------------------------------------
+
+.. automodule:: cpg.common.tools.example_tool.testui
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.tools.example_tool
+   :members:
+   :undoc-members:
+   :show-inheritance:

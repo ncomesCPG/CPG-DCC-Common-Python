@@ -1,0 +1,10 @@
+cpg.common.resources.fonts package
+==================================
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.resources.fonts
+   :members:
+   :undoc-members:
+   :show-inheritance:

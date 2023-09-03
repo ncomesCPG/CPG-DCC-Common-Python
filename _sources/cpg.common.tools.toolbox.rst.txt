@@ -1,0 +1,45 @@
+cpg.common.tools.toolbox package
+================================
+
+Submodules
+----------
+
+cpg.common.tools.toolbox.toolbox\_data module
+---------------------------------------------
+
+.. automodule:: cpg.common.tools.toolbox.toolbox_data
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.tools.toolbox.toolbox\_editor module
+-----------------------------------------------
+
+.. automodule:: cpg.common.tools.toolbox.toolbox_editor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.tools.toolbox.toolbox\_prefs module
+----------------------------------------------
+
+.. automodule:: cpg.common.tools.toolbox.toolbox_prefs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+cpg.common.tools.toolbox.toolbox\_ui module
+-------------------------------------------
+
+.. automodule:: cpg.common.tools.toolbox.toolbox_ui
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.tools.toolbox
+   :members:
+   :undoc-members:
+   :show-inheritance:

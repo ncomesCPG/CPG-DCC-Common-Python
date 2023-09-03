@@ -1,0 +1,21 @@
+cpg.common.assetlist package
+============================
+
+Submodules
+----------
+
+cpg.common.assetlist.assetlist module
+-------------------------------------
+
+.. automodule:: cpg.common.assetlist.assetlist
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: cpg.common.assetlist
+   :members:
+   :undoc-members:
+   :show-inheritance:
