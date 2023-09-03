@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cpg.common.startup.configs package &mdash; CPG DCC Maya Python 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="cpg.common.startup.dccs package" href="cpg.common.startup.dccs.html" />
+    <link rel="prev" title="cpg.common.startup package" href="cpg.common.startup.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            CPG DCC Maya Python
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">cpg-common</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="cpg.html">cpg package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="cpg.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="cpg.common.html">cpg.common package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cpg.html#module-cpg">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">CPG DCC Maya Python</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">cpg-common</a></li>
+          <li class="breadcrumb-item"><a href="cpg.html">cpg package</a></li>
+          <li class="breadcrumb-item"><a href="cpg.common.html">cpg.common package</a></li>
+          <li class="breadcrumb-item"><a href="cpg.common.startup.html">cpg.common.startup package</a></li>
+      <li class="breadcrumb-item active">cpg.common.startup.configs package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/cpg.common.startup.configs.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="cpg-common-startup-configs-package">
+<h1>cpg.common.startup.configs package<a class="headerlink" href="#cpg-common-startup-configs-package" title="Permalink to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-cpg.common.startup.configs.common_env">
+<span id="cpg-common-startup-configs-common-env-module"></span><h2>cpg.common.startup.configs.common_env module<a class="headerlink" href="#module-cpg.common.startup.configs.common_env" title="Permalink to this heading"></a></h2>
+<p>Module that sets up the environment variables for CPG</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.common_env.add_to_env">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.common_env.</span></span><span class="sig-name descname"><span class="pre">add_to_env</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">env</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">new_paths</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/common_env.html#add_to_env"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.common_env.add_to_env" title="Permalink to this definition"></a></dt>
+<dd><p>Adds the given environment paths into the given environment variable if the path is not already added to it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>env</strong> (<em>str</em>) – environment variable name.</p></li>
+<li><p><strong>new_paths</strong> (<em>list</em><em>(</em><em>str</em><em>)</em>) – list of paths to add to given environment variable.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.common_env.create_common_envs">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.common_env.</span></span><span class="sig-name descname"><span class="pre">create_common_envs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">skip_dialog</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/common_env.html#create_common_envs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.common_env.create_common_envs" title="Permalink to this definition"></a></dt>
+<dd><p>Sets up the Common depot environment variables</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>skip_dialog</strong> (<em>bool</em>) – If True, nothing will be written to the console.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.common_env.create_project_envs">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.common_env.</span></span><span class="sig-name descname"><span class="pre">create_project_envs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">skip_dialog</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/common_env.html#create_project_envs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.common_env.create_project_envs" title="Permalink to this definition"></a></dt>
+<dd><p>Sets up the projects main environment variables</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>skip_dialog</strong> (<em>bool</em>) – If True, nothing will be written to the console.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.common_env.create_tools_envs">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.common_env.</span></span><span class="sig-name descname"><span class="pre">create_tools_envs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">skip_dialog</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/common_env.html#create_tools_envs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.common_env.create_tools_envs" title="Permalink to this definition"></a></dt>
+<dd><p>Sets up the framework environment variables</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>skip_dialog</strong> (<em>bool</em>) – If True, nothing will be written to the console.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.common_env.read_package">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.common_env.</span></span><span class="sig-name descname"><span class="pre">read_package</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">package_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/common_env.html#read_package"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.common_env.read_package" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.common_env.remove_all_cpg_envs">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.common_env.</span></span><span class="sig-name descname"><span class="pre">remove_all_cpg_envs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/common_env.html#remove_all_cpg_envs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.common_env.remove_all_cpg_envs" title="Permalink to this definition"></a></dt>
+<dd><p>Removes all CPG Environment Variables</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns a list of environment variables that get removed.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>list[]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-cpg.common.startup.configs.config">
+<span id="cpg-common-startup-configs-config-module"></span><h2>cpg.common.startup.configs.config module<a class="headerlink" href="#module-cpg.common.startup.configs.config" title="Permalink to this heading"></a></h2>
+<p>Reads the configs file and sets the sys.paths</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.config.</span></span><span class="sig-name descname"><span class="pre">ProjectPackageManager</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">package_file</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/config.html#ProjectPackageManager"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.animation_url">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">animation_url</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.animation_url" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.common_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">common_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.common_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.common_startup_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">common_startup_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.common_startup_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.cpg_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">cpg_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.cpg_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.dcc_setup_url">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">dcc_setup_url</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.dcc_setup_url" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.dependencies_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">dependencies_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.dependencies_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.fonts_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">fonts_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.fonts_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.get_env_paths">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_env_paths</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.get_env_paths" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.icons_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">icons_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.icons_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.images_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">images_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.images_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.jira_url">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">jira_url</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.jira_url" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.maya_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">maya_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.maya_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.mobu_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">mobu_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.mobu_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.modeling_url">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">modeling_url</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.modeling_url" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.project_url">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">project_url</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.project_url" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.resources_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">resources_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.resources_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.rigging_url">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">rigging_url</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.rigging_url" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.ProjectPackageManager.styles_path">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">styles_path</span></span><a class="headerlink" href="#cpg.common.startup.configs.config.ProjectPackageManager.styles_path" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.create_sys_packages">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.config.</span></span><span class="sig-name descname"><span class="pre">create_sys_packages</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dcc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'maya'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_dialog</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/config.html#create_sys_packages"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.config.create_sys_packages" title="Permalink to this definition"></a></dt>
+<dd><p>Sets the sys paths</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>config_file</strong> (<em>str</em>) – a yaml file with the directories data.</p></li>
+<li><p><strong>skip_dialog</strong> (<em>bool</em>) – if true, the warning will not be displayed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns a list of package paths that get registered.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list[str]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.get_config_packages">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.config.</span></span><span class="sig-name descname"><span class="pre">get_config_packages</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dcc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'maya'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_dialog</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/config.html#get_config_packages"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.config.get_config_packages" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the paths that need to be registered in the sys paths.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>config_file</strong> (<em>str</em>) – a yaml file with the directories data.</p></li>
+<li><p><strong>skip_dialog</strong> (<em>bool</em>) – if true, the warning will not be displayed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the paths that need to be registered in the sys paths.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list[list[str], list[str]]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.read_config_file">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.config.</span></span><span class="sig-name descname"><span class="pre">read_config_file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config_file</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/config.html#read_config_file"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.config.read_config_file" title="Permalink to this definition"></a></dt>
+<dd><p>Reads the config file - This is a file that states what directories should be loaded.
+:param config_file:
+:return: Returns a dictionary of the config file
+:rtype: Dictionary</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.reload_modules">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.config.</span></span><span class="sig-name descname"><span class="pre">reload_modules</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/config.html#reload_modules"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.config.reload_modules" title="Permalink to this definition"></a></dt>
+<dd><p>Function that forces the reloading of all CPG related modules</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.remove_sys_packages">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.config.</span></span><span class="sig-name descname"><span class="pre">remove_sys_packages</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config_file</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dcc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'maya'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_dialog</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/config.html#remove_sys_packages"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.config.remove_sys_packages" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>config_file</strong> (<em>str</em>) – a yaml file with the directories data.</p></li>
+<li><p><strong>skip_dialog</strong> (<em>bool</em>) – if true, the warning will not be displayed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns a list of environment variables that get removed.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list[]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.startup.configs.config.remove_sys_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.startup.configs.config.</span></span><span class="sig-name descname"><span class="pre">remove_sys_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_dialog</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/startup/configs/config.html#remove_sys_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.startup.configs.config.remove_sys_path" title="Permalink to this definition"></a></dt>
+<dd><p>Removes paths from the sys.path</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>path_list</strong> (<em>list</em><em>[</em><em>path</em><em>]</em><em>/path</em>) – </p></li>
+<li><p><strong>skip_dialog</strong> (<em>bool</em>) – if true, the warning will not be displayed.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-cpg.common.startup.configs.consts">
+<span id="cpg-common-startup-configs-consts-module"></span><h2>cpg.common.startup.configs.consts module<a class="headerlink" href="#module-cpg.common.startup.configs.consts" title="Permalink to this heading"></a></h2>
+<p>Module that contains the cpg decorators at a base python level</p>
+</section>
+<section id="module-cpg.common.startup.configs">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-cpg.common.startup.configs" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="cpg.common.startup.html" class="btn btn-neutral float-left" title="cpg.common.startup package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="cpg.common.startup.dccs.html" class="btn btn-neutral float-right" title="cpg.common.startup.dccs package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Rigging Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

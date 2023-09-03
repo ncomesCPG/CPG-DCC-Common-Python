@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cpg.common.paths package &mdash; CPG DCC Maya Python 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="cpg.common.plasticscm package" href="cpg.common.plasticscm.html" />
+    <link rel="prev" title="cpg.common.googlesheets package" href="cpg.common.googlesheets.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            CPG DCC Maya Python
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">cpg-common</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="cpg.html">cpg package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="cpg.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="cpg.common.html">cpg.common package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="cpg.html#module-cpg">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">CPG DCC Maya Python</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">cpg-common</a></li>
+          <li class="breadcrumb-item"><a href="cpg.html">cpg package</a></li>
+          <li class="breadcrumb-item"><a href="cpg.common.html">cpg.common package</a></li>
+      <li class="breadcrumb-item active">cpg.common.paths package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/cpg.common.paths.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="cpg-common-paths-package">
+<h1>cpg.common.paths package<a class="headerlink" href="#cpg-common-paths-package" title="Permalink to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-cpg.common.paths.path_utils">
+<span id="cpg-common-paths-path-utils-module"></span><h2>cpg.common.paths.path_utils module<a class="headerlink" href="#module-cpg.common.paths.path_utils" title="Permalink to this heading"></a></h2>
+<p>Module that contains the cpg decorators at a base python level</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.path_utils.all_file_types_in_directory">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.path_utils.</span></span><span class="sig-name descname"><span class="pre">all_file_types_in_directory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rootdir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_ext</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/path_utils.html#all_file_types_in_directory"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.path_utils.all_file_types_in_directory" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a full path files that are embedded in directories.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>rootdir</strong> (<em>path</em>) – A directory with sub folders.</p></li>
+<li><p><strong>file_ext</strong> (<em>str</em>) – file type.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns a full path files that are embedded in directories.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list[path]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.path_utils.all_files_in_directory">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.path_utils.</span></span><span class="sig-name descname"><span class="pre">all_files_in_directory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rootdir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/path_utils.html#all_files_in_directory"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.path_utils.all_files_in_directory" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a full path of folders that are embedded in directories.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>rootdir</strong> (<em>path</em>) – A directory with sub folders.</p></li>
+<li><p><strong>file_name</strong> (<em>str</em>) – A file name without the full path.  Just the name</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns a full path of folders that are embedded in directories.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list[path] or path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.path_utils.all_folders_in_directory">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.path_utils.</span></span><span class="sig-name descname"><span class="pre">all_folders_in_directory</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rootdir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">folder_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/path_utils.html#all_folders_in_directory"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.path_utils.all_folders_in_directory" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a full path of folders that are embedded in directories.
+if you provide a folder name, it will prove you with that folder name</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>rootdir</strong> (<em>path</em>) – A directory with sub folders.</p>
+</dd>
+</dl>
+<p>str folder_name: A folder name without the full path.  Just the name
+:return: Returns a full path of folders that are embedded in directories.
+:rtype: list[path] or path</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.path_utils.get_sub_dirs">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.path_utils.</span></span><span class="sig-name descname"><span class="pre">get_sub_dirs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rootdir</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/path_utils.html#get_sub_dirs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.path_utils.get_sub_dirs" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a directory and all it’s subdirectories.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>rootdir</strong> (<em>path</em>) – A directory with sub folders.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns a directory and all it’s subdirectories.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list[str]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.path_utils.to_full_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.path_utils.</span></span><span class="sig-name descname"><span class="pre">to_full_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/path_utils.html#to_full_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.path_utils.to_full_path" title="Permalink to this definition"></a></dt>
+<dd><p>Convert a path to a full path relative our project path start.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>file_path</strong> (<em>str</em>) – A relative file path from our project path.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The full file path using the project path as the start.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.path_utils.to_relative_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.path_utils.</span></span><span class="sig-name descname"><span class="pre">to_relative_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_path</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/path_utils.html#to_relative_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.path_utils.to_relative_path" title="Permalink to this definition"></a></dt>
+<dd><p>Convert a path to a project relative path by replacing the project path start.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>file_path</strong> (<em>str</em>) – A full path to a given file.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A path replacing the project path.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-cpg.common.paths.paths">
+<span id="cpg-common-paths-paths-module"></span><h2>cpg.common.paths.paths module<a class="headerlink" href="#module-cpg.common.paths.paths" title="Permalink to this heading"></a></h2>
+<p>Module that contains the cpg decorators at a base python level</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_art_common_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_art_common_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_art_common_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_art_common_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the Tools/Common folder in the ART Plastic directory</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the Tools/Common folder in the ART Plastic directory</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_art_tools_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_art_tools_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_art_tools_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_art_tools_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the Tools folder in the ART Plastic directory</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the Tools folder in the ART Plastic directory</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_animations_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_animations_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_animations_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_animations_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the Animations folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the Animations folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_flags_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_flags_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_flags_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_flags_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Project asset flags directory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>asset_id</strong> (<em>str</em>) – ID of the asset to retrieve path for.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Project asset flags path.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_list_file_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_list_file_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_list_file_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_list_file_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the asset list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>path to the asset list.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_list_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_list_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_list_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_list_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the asset list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>path to the asset list.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_maya_rig_file_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_maya_rig_file_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_maya_rig_file_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_maya_rig_file_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the project asset rig file path.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the project asset rig file path.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_name">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_name</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_name"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_name" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Asset name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>asset_id</strong> (<em>str</em>) – ID of the asset to retrieve path for.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the the Asset name.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">full_path</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the asset path of the given asset ID.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>asset_id</strong> (<em>str</em>) – ID of the asset we want to retrieve path of.</p></li>
+<li><p><strong>full_path</strong> (<em>bool</em>) – whether to return relative asset path or full asset path.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>asset path of the asset with given ID.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_rig_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_rig_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_rig_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_rig_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Project Asset Rig path.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>asset_id</strong> (<em>str</em>) – ID of the asset to retrieve path for.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the Project Asset Rig path.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_skeletal_mesh_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_skeletal_mesh_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_skeletal_mesh_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_skeletal_mesh_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Project Asset Skeletal Mesh path.  This is the Maya file for the skinned mesh.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>asset_id</strong> (<em>str</em>) – ID of the asset to retrieve path for.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the Project Asset Skeletal Mesh path.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_skin_data_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_skin_data_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_skin_data_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_skin_data_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Project Asset skinning data path.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>asset_id</strong> (<em>str</em>) – ID of the asset to retrieve path for.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the Project Asset Rig path.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_asset_source_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_asset_source_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_asset_source_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_asset_source_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Project Asset Rig path.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>asset_id</strong> (<em>str</em>) – ID of the asset to retrieve path for.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the Project Asset Rig path.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_common_face">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_common_face</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_common_face"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_common_face" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to Tools/Common/Face.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>path to Tools/Common/Face.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_common_face_skeletons">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_common_face_skeletons</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_common_face_skeletons"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_common_face_skeletons" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the common face folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the common face folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_common_skeletons">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_common_skeletons</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_common_skeletons"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_common_skeletons" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the common face folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the common face folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_common_skinning">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_common_skinning</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_common_skinning"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_common_skinning" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the common skinning folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the common skinning folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_common_tools_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_common_tools_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_common_tools_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_common_tools_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the CPG/Common/Tools folder in the Python directory</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the CPG/Common/Tools folder in the Python directory</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_commond_sounds">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_commond_sounds</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_commond_sounds"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_commond_sounds" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the common sounds folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the common sounds folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_dcc_prefs_folder">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_dcc_prefs_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dcc</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_dcc_prefs_folder"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_dcc_prefs_folder" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the user’s cpg preferences folder to a specific dcc software.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>dcc</strong> (<em>str</em>) – Name of dcc software or folder to the preferences.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>path to the user’s cpg preferences folder to a specific dcc software.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_dcc_tools_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_dcc_tools_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_dcc_tools_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_dcc_tools_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the CPGTools&lt;dcc&gt;</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the CPGTools&lt;dcc&gt; in the project directory</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_documents_folder">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_documents_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">absolute</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_documents_folder"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_documents_folder" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the user folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>path to the user folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_face_blendshape_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_face_blendshape_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_face_blendshape_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_face_blendshape_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the face data folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the face data folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_face_data_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_face_data_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_face_data_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_face_data_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the face data folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the face data folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_icons_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_icons_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_icons_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_icons_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the face data folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the face data folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_images_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_images_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_images_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_images_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the face data folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the face data folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_local_preferences_folder">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_local_preferences_folder</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_local_preferences_folder"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_local_preferences_folder" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the user’s cpg preferences folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>path to the user’s cpg preferences folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_local_tools_prefs_folder">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_local_tools_prefs_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dcc</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tool_name</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_local_tools_prefs_folder"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_local_tools_prefs_folder" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the folder where the local prefs lives.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dcc</strong> (<em>str</em>) – the dcc software</p></li>
+<li><p><strong>tool_name</strong> (<em>str</em>) – Name of the folder where the local prefs lives.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the folder where the local prefs lives.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_meshes_folder">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_meshes_folder</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">asset_id</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_meshes_folder"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_meshes_folder" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Project Asset Skeletal Mesh path.  This is the Maya file for the skinned mesh.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>asset_id</strong> (<em>str</em>) – ID of the asset to retrieve path for.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the Project Asset Skeletal Mesh path.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_resources_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_resources_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_resources_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_resources_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the face data folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the face data folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_stylesheet_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_stylesheet_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_stylesheet_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_stylesheet_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the face data folder.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the face data folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.paths.get_unreal_content_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.paths.</span></span><span class="sig-name descname"><span class="pre">get_unreal_content_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/paths.html#get_unreal_content_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.paths.get_unreal_content_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to Unreal’s content path.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to Unreal’s content path.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-cpg.common.paths.project_paths">
+<span id="cpg-common-paths-project-paths-module"></span><h2>cpg.common.paths.project_paths module<a class="headerlink" href="#module-cpg.common.paths.project_paths" title="Permalink to this heading"></a></h2>
+<p>Module that contains the cpg decorators at a base python level</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_common_root_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_common_root_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_common_root_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_common_root_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the common root folder.  If the environment variable is not set, it will set it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the path to the cpg root folder.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_cpg_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_cpg_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">create_env</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_cpg_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_cpg_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the cpg root folder.  If the environment variable is not set, it will set it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>create_env</strong> (<em>bool</em>) – If True, the path will be registered into an env var.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the path to the cpg root folder.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_dependencies_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_dependencies_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">create_env</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_dependencies_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_dependencies_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the dependencies folder.  If the environment variable is not set, it will set it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>create_env</strong> (<em>bool</em>) – If True, the path will be registered into an env var.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the path to the dependencies folder.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>path</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_framework_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_framework_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">create_env</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_framework_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_framework_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the framework folder.  If the environment variable is not set, it will set it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>create_env</strong> (<em>bool</em>) – If True, the path will be registered into an env var.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the path to the framework folder.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_package_config_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_package_config_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">create_env</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_package_config_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_package_config_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the master config file.  If the environment variable is not set, it will set it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>create_env</strong> (<em>bool</em>) – If True, the path will be registered into an env var.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the path to the master config file.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_package_dict">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_package_dict</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_package_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_package_dict" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the Project Info yaml file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Returns the Project Info yaml file.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>dictionary</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_plastic_content_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_plastic_content_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">create_env</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_plastic_content_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_plastic_content_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the plastic art content folder.  If the environment variable is not set, it will set it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>create_env</strong> (<em>bool</em>) – If True, the path will be registered into an env var.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the path to the plastic art content folder.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_project_path">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_project_path</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">create_env</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_project_path"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_project_path" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the path to the plastic art content folder.  If the environment variable is not set, it will set it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>create_env</strong> (<em>bool</em>) – If True, the path will be registered into an env var.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Returns the path to the plastic art content folder.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.get_registry_value">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">get_registry_value</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sub_key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">from_user_register</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#get_registry_value"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.get_registry_value" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a value from the Windows register.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sub_key</strong> (<em>str</em>) – register sub key.</p></li>
+<li><p><strong>key_name</strong> (<em>str</em>) – register name.</p></li>
+<li><p><strong>from_user_register</strong> (<em>bool</em>) – whether to retrieve the registry value from user register or from local machine.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>register value.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cpg.common.paths.project_paths.read_package_config">
+<span class="sig-prename descclassname"><span class="pre">cpg.common.paths.project_paths.</span></span><span class="sig-name descname"><span class="pre">read_package_config</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cpg/common/paths/project_paths.html#read_package_config"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cpg.common.paths.project_paths.read_package_config" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-cpg.common.paths">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-cpg.common.paths" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="cpg.common.googlesheets.html" class="btn btn-neutral float-left" title="cpg.common.googlesheets package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="cpg.common.plasticscm.html" class="btn btn-neutral float-right" title="cpg.common.plasticscm package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Rigging Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
